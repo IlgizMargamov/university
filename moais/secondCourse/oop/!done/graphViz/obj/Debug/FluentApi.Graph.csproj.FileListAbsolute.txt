@@ -1,0 +1,9 @@
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\obj\Debug\FluentApi.Graph.csproj.AssemblyReference.cache
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\obj\Debug\FluentApi.Graph.csproj.CoreCompileInputs.cache
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\bin\Debug\FluentApi.Graph.exe.config
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\bin\Debug\FluentApi.Graph.exe
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\bin\Debug\FluentApi.Graph.pdb
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\bin\Debug\nunit.framework.dll
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\obj\Debug\FluentApi.Graph.csproj.CopyComplete
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\obj\Debug\FluentApi.Graph.exe
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\graphViz\obj\Debug\FluentApi.Graph.pdb

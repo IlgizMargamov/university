@@ -1,0 +1,8 @@
+{
+  "name": "hamming",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "math": "0.0.3"
+  }
+}

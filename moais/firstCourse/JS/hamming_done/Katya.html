@@ -1,0 +1,119 @@
+<html lang="">
+<head>
+    <title>Hamming code</title>
+</head>
+
+<body>
+<h1><b>Hamming code</b></h1> <br/>
+
+<br/>
+<form onsubmit="return Encode()">
+    Enter a code of any length:
+    <label for="encode_field"></label><input id="encode_field" type="text"> <input id="encode_inp" type="submit"
+                                                                                   value="Encode"> <br/>
+</form>
+<form onsubmit="return Decode()">
+    String encoded. Mess it up!
+    <label for="decode_field"></label><input id="decode_field" type="text"> <input id="decode_inp" type="submit"
+                                                                                   value="Decode"> <br/>
+</form>
+<form onsubmit="return Reset()">
+    Result will show up here. <label for="result"></label><input id="result">
+    <input id="reset_inp" type="submit" value="Reset">
+    <br/> <br/>
+</form>
+</body>
+
+<script type="text/javascript">
+    let minLength = 0;
+
+    function Prepare(str) {
+        // возвращает строку с звёздочками на позициях степени двойки
+        let exponent = 0;
+        let result = "";
+        let symbolsProcessed = 0;
+        for (let i = 0; symbolsProcessed < str.length; i++) {
+            if (i + 1 === 1 << exponent) {
+                result = '*' + result;
+                exponent++;
+            } else {
+                result = str.charAt(str.length - 1 - i + exponent) + result;
+                symbolsProcessed++;
+            }
+        }
+        minLength = exponent;
+        return result;
+    }
+
+    function GetXorPositionsSum(str, startPos) {
+        let sum = 0;
+        for (let i = startPos; i < str.length; i++)
+            if (str.charAt(str.length - 1 - i) === '1') {
+                sum = sum ^ (i + 1 - startPos);
+            }
+        return sum;
+    }
+
+    function Encode() {
+        let str = document.getElementById('encode_field').value;
+        str = Prepare(str);
+        let controlBits = IntToBinaryString(GetXorPositionsSum(str, 0));
+        while (controlBits.length < minLength)
+            controlBits = '0' + controlBits;
+
+        let result = "";
+        let exponent = 0; // содержит степень двойки
+        let overallParity = 0;
+
+        for (let i = 0; i < str.length; i++) {
+            if (i + 1 === 1 << exponent) {
+                result = controlBits.charAt(minLength - 1 - exponent) + result;
+                exponent++;
+            } else {
+                result = str.charAt(str.length - 1 - i) + result;
+            }
+            overallParity = Number(result.charAt(0)) ^ overallParity;
+        }
+
+        document.getElementById('decode_field').value = result + String(overallParity);
+        return false;
+    }
+
+    function Decode() {
+        const str = document.getElementById('decode_field').value;
+        const xorPositionsSum = GetXorPositionsSum(str, 1);
+
+        let overallXorSum = 0;
+        for (let i = str.length - 1; i >= 0; i--)
+            overallXorSum = overallXorSum ^ Number(str.charAt(i));
+
+        if (xorPositionsSum === 0 && overallXorSum === 0) {
+            document.getElementById('result').value = "Errors not found.";
+        } else if (xorPositionsSum !== 0 && overallXorSum === 0) {
+            document.getElementById('result').value = "At least two errors!";
+        } else {
+            document.getElementById('result').value = String(str.length - (xorPositionsSum + 1));
+        }
+
+        return false;
+    }
+
+    function IntToBinaryString(x) {
+        if (x === 0) return "0";
+        let integer = x;
+        let resultInt = "";
+        while (integer > 0) {
+            resultInt = String(integer % 2) + resultInt;
+            integer = parseInt(integer / 2);
+        }
+        return resultInt;
+    }
+
+    function Reset() {
+        document.getElementById('encode_field').value = "";
+        document.getElementById('decode_field').value = "";
+        document.getElementById('result').value = "";
+        return false;
+    }
+</script>
+</html>

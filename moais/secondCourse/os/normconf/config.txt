@@ -1,0 +1,6 @@
+time=4s
+distance=8m
+longtime=15h
+weight=42g
+timeMy=4h 2s
+weightMy=5kg - 700g 40mg

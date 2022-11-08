@@ -1,0 +1,10 @@
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\bin\Debug\Inheritance.DataStructure.exe.config
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\bin\Debug\Inheritance.DataStructure.exe
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\bin\Debug\Inheritance.DataStructure.pdb
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\bin\Debug\nunit.framework.dll
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\bin\Debug\nunitlite.dll
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\obj\Debug\Inheritance.DataStructure.csproj.AssemblyReference.cache
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\obj\Debug\Inheritance.DataStructure.csproj.CoreCompileInputs.cache
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\obj\Debug\Inheritance.DataStructure.csproj.CopyComplete
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\obj\Debug\Inheritance.DataStructure.exe
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\dataStructures\obj\Debug\Inheritance.DataStructure.pdb

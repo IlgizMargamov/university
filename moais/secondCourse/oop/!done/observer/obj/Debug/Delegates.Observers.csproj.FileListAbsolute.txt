@@ -1,0 +1,10 @@
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\bin\Debug\Delegates.Observers.exe.config
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\bin\Debug\Delegates.Observers.exe
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\bin\Debug\Delegates.Observers.pdb
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\bin\Debug\nunit.framework.dll
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\bin\Debug\nunitlite.dll
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\obj\Debug\Delegates.Observers.csproj.AssemblyReference.cache
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\obj\Debug\Delegates.Observers.csproj.CoreCompileInputs.cache
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\obj\Debug\Delegates.Observers.csproj.CopyComplete
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\obj\Debug\Delegates.Observers.exe
+C:\Users\Gizon\Desktop\Study\моаис\2 курс\oop\observer\obj\Debug\Delegates.Observers.pdb

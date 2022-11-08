@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Hamming code</title>
+</head>
+<body>
+<input type="text" id="textToEncode" oninput="this.value =
+     this.value.replace(/[^0-1.]/g, '').replace(/(\..*?)\..*/g, '$1');"/>
+<input value="Encode" id="encode" onclick="encodeClick()" type="button"><br>
+    <input type="text" id="textEncoded" oninput="this.value =
+     this.value.replace(/[^0-1.]/g, '').replace(/(\..*?)\..*/g, '$1');"/>
+<input value="Decode" id="decode" onclick="decodeClick()" type="button"><br>
+    <button onclick="clearClick()">Clear</button>
+    <br>
+    </body>
+    </html>
+
+    <script>
+    function clearClick() {
+        document.getElementById("textToEncode").value = ""
+        document.getElementById("textEncoded").value = ""
+    }
+
+function encodeClick() {
+    let word = document.getElementById("textToEncode").value
+    let bytesCount = getBytesCount(word)
+    console.log(bytesCount[0] + " " + bytesCount[1])
+    let HMatrix = createHmatrix(bytesCount[0], bytesCount[1])
+    let encodedWord = encodeWord(HMatrix, word)
+    writeText(encodedWord, "textEncoded")
+}
+
+function decodeClick() {
+    let word = document.getElementById("textToEncode").value
+    let bytesCount = getBytesCount(word)
+    let HMatrix = createHmatrix(bytesCount[0], bytesCount[1])
+    let errWord = document.getElementById("textEncoded").value
+    decodeAndAlertErrors(HMatrix, errWord)
+}
+
+function getBytesCount(word) {
+    let dCount = word.length
+    let pCount = Math.ceil(Math.log2(Math.abs(dCount) + 1 + Math.ceil(Math.log2(Math.abs(dCount) + 1))))
+    return [dCount, pCount]
+}
+
+function writeText(text, id) {
+    let result = ""
+    for (let i = 0; i < text.length; i++)
+        result += text[i]
+    document.getElementById(id).value = result
+}
+
+function createHmatrix(dCount, pCount) {
+    let result = []
+    for (let i = 1; i <= dCount + pCount; i++)
+        result.push(getMatrixElement(i, pCount))
+    return result
+
+    function getMatrixElement(index, pCount) {
+        let result = new Array(pCount)
+        for (let i = pCount - 1; i >= 0; i--) {
+            let power = Math.pow(2, i)
+            if (index >= power) {
+                index %= power
+                result[i] = 1
+                continue
+            }
+            result[i] = 0
+        }
+
+        return result
+    }
+}
+
+
+
+function transformHmatrixToGMatrix(Hmatrix) {
+    let tempVector = []
+    for (let i = 0; i < Hmatrix[0].length; i++)
+        tempVector.push(0)
+    tempVector.push(1)
+
+    for (let i = 0; i < Hmatrix.length; i++)
+        Hmatrix[i].push(1)
+    Hmatrix.push(tempVector)
+}
+
+function encodeWord(Hmatrix, word) {
+    let vector = new Array(Hmatrix.length)
+    let powersOfTwo = 0
+    let countOfSymbols = 0
+    for (let i = 0; i < Hmatrix.length; i++) {
+        if (i + 1 === Math.pow(2, powersOfTwo)) {
+            vector[i] = 0
+            powersOfTwo++
+        } else {
+            vector[i] = word[countOfSymbols]
+            countOfSymbols++
+        }
+    }
+
+    powersOfTwo = 0
+    let syndrome = multiplyVectorOnMatrix(Hmatrix, vector)
+    for (let i = 0; i < Hmatrix.length; i++) {
+        if (i + 1 === Math.pow(2, powersOfTwo)) {
+            vector[i] = syndrome[powersOfTwo]
+            powersOfTwo++
+        }
+    }
+
+    let sum = 0
+    for (let i = 0; i < vector.length; i++)
+        sum += parseInt(vector[i])
+
+    vector.push(sum % 2)
+    return vector
+}
+
+function multiplyVectorOnMatrix(matrix, vector) {
+    let result = []
+    for (let i = 0; i < matrix[0].length; i++) {
+        let temp = 0
+        for (let j = 0; j < matrix.length; j++)
+            temp += matrix[j][i] * vector[j]
+        result.push(temp % 2)
+    }
+    return result
+}
+
+function decodeAndAlertErrors(HMatrix, wordWithErrors) {
+    transformHmatrixToGMatrix(HMatrix)
+    let syndrome = multiplyVectorOnMatrix(HMatrix, wordWithErrors)
+    let error = false
+    if (syndrome[syndrome.length - 1] === 1) {
+        syndrome.pop()
+        let index = ""
+        for (let i = syndrome.length - 1; i >= 0; i--)
+            index += syndrome[i]
+
+        if (parseInt(index, 2) === 0)
+            alert("Ошибка в " + wordWithErrors.length + " бите")
+        else
+            alert("Ошибка в " + parseInt(index, 2) + " бите")
+        error = true
+    } else
+        for (let i = 0; i < syndrome.length - 1; i++)
+            if (syndrome[i] !== 0) {
+                alert("2 ошибки")
+                error = true
+                break
+            }
+    if (!error)
+        alert("Нет ошибок")
+}
+</script>

@@ -1,0 +1,10 @@
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\obj\Debug\Memory.Timers.csproj.AssemblyReference.cache
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\obj\Debug\Memory.Timers.csproj.CoreCompileInputs.cache
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\bin\Debug\Memory.Timers.exe.config
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\bin\Debug\Memory.Timers.exe
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\bin\Debug\Memory.Timers.pdb
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\bin\Debug\nunit.framework.dll
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\bin\Debug\nunitlite.dll
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\obj\Debug\Memory.Timers.csproj.CopyComplete
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\obj\Debug\Memory.Timers.exe
+C:\Users\Gizon\Desktop\Study\moais\secondCourse\oop\timers\obj\Debug\Memory.Timers.pdb

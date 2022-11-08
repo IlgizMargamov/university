@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" name="GaussAlgorithm.exe" fullname="C:/Users/Gizon/Downloads/Practices/Gauss/bin/Debug/GaussAlgorithm.exe" testcasecount="37" result="Failed" start-time="2021-03-18 06:42:22Z" end-time="2021-03-18 06:42:25Z" duration="3.403617" total="37" passed="0" failed="37" inconclusive="0" skipped="0" asserts="8" random-seed="404124612">
+  <command-line><![CDATA[C:\Users\Gizon\Downloads\Practices\Gauss\bin\Debug\GaussAlgorithm.exe]]></command-line>
+  <filter />
+  <test-suite type="Assembly" id="1045" name="GaussAlgorithm.exe" fullname="C:/Users/Gizon/Downloads/Practices/Gauss/bin/Debug/GaussAlgorithm.exe" runstate="Runnable" testcasecount="37" result="Failed" site="Child" start-time="2021-03-18 06:42:22Z" end-time="2021-03-18 06:42:25Z" duration="3.403617" total="37" passed="0" failed="37" warnings="0" inconclusive="0" skipped="0" asserts="8">
+    <environment framework-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Gizon\Downloads\Practices\Gauss\bin\Debug" machine-name="MSI" user="Gizon" user-domain="MSI" culture="ru-RU" uiculture="ru-RU" os-architecture="x86" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\Users\Gizon\Downloads\Practices\Gauss\bin\Debug" />
+      <setting name="NumberOfTestWorkers" value="12" />
+    </settings>
+    <properties>
+      <property name="_PID" value="14936" />
+      <property name="_APPDOMAIN" value="GaussAlgorithm.exe" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1046" name="GaussAlgorithm" fullname="GaussAlgorithm" runstate="Runnable" testcasecount="37" result="Failed" site="Child" start-time="2021-03-18 06:42:22Z" end-time="2021-03-18 06:42:25Z" duration="3.320230" total="37" passed="0" failed="37" warnings="0" inconclusive="0" skipped="0" asserts="8">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1000" name="Solver_Should" fullname="GaussAlgorithm.Solver_Should" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="37" result="Failed" site="Child" start-time="2021-03-18 06:42:22Z" end-time="2021-03-18 06:42:25Z" duration="3.281531" total="37" passed="0" failed="37" warnings="0" inconclusive="0" skipped="0" asserts="8">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="1044" name="Solve_WhenHasLinearlyDependentRows" fullname="GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-03-18 06:42:22Z" end-time="2021-03-18 06:42:23Z" duration="1.218776" total="5" passed="0" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1039" name="Solve_WhenHasLinearlyDependentRows(10)" fullname="GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(10)" methodname="Solve_WhenHasLinearlyDependentRows" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="677176927" result="Failed" label="Error" start-time="2021-03-18 06:42:22Z" end-time="2021-03-18 06:42:23Z" duration="0.977156" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 123]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1040" name="Solve_WhenHasLinearlyDependentRows(5)" fullname="GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(5)" methodname="Solve_WhenHasLinearlyDependentRows" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="931669697" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.033197" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 123]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1041" name="Solve_WhenHasLinearlyDependentRows(4)" fullname="GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(4)" methodname="Solve_WhenHasLinearlyDependentRows" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="20045121" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.025447" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 123]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1042" name="Solve_WhenHasLinearlyDependentRows(3)" fullname="GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(3)" methodname="Solve_WhenHasLinearlyDependentRows" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="485096597" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.027549" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 123]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1043" name="Solve_WhenHasLinearlyDependentRows(2)" fullname="GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(2)" methodname="Solve_WhenHasLinearlyDependentRows" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="662880055" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.026315" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.Solve_WhenHasLinearlyDependentRows(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 123]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1008" name="SolveCommonCases_1x1" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.330809" total="7" passed="0" failed="7" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1001" name="SolveCommonCases_1x1(1,1,42)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,1,42)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1782717781" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.025670" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1002" name="SolveCommonCases_1x1(1,2,-42)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,2,-42)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1252716173" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.025601" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1003" name="SolveCommonCases_1x1(1,-100,0)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,-100,0)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1203478452" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.025137" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1004" name="SolveCommonCases_1x1(1,0,0)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,0,0)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="713616617" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.023856" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1005" name="SolveCommonCases_1x1(1,1,21,2,42)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,1,21,2,42)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1457391002" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.023610" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1006" name="SolveCommonCases_1x1(1,2,42,1,21)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,2,42,1,21)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1645052913" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.026244" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1007" name="SolveCommonCases_1x1(1,0,0,0,0)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(1,0,0,0,0)" methodname="SolveCommonCases_1x1" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="258060693" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.026873" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_1x1(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 35]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1017" name="SolveCommonCases_2x2" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:24Z" duration="0.377514" total="8" passed="0" failed="8" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1009" name="SolveCommonCases_2x2(2,1,2,42)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,1,2,42)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1574297284" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.024602" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1010" name="SolveCommonCases_2x2(2,0,-2,42)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,0,-2,42)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="827399108" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.025482" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1011" name="SolveCommonCases_2x2(2,-1,0,42)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,-1,0,42)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="247429673" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.025094" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1012" name="SolveCommonCases_2x2(2,0,0,0)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,0,0,0)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="262770146" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:23Z" duration="0.027789" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1013" name="SolveCommonCases_2x2(2,1,2,1,3,-1,2)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,1,2,1,3,-1,2)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1853872183" result="Failed" label="Error" start-time="2021-03-18 06:42:23Z" end-time="2021-03-18 06:42:24Z" duration="0.023209" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1014" name="SolveCommonCases_2x2(2,1,-2,42,2,1,-31)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,1,-2,42,2,1,-31)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="561842828" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026762" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1015" name="SolveCommonCases_2x2(2,-1,-2,-42,2,4,84)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,-1,-2,-42,2,4,84)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1671182189" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.025910" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1016" name="SolveCommonCases_2x2(2,1,2,42,-2,-4,-84)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(2,1,2,42,-2,-4,-84)" methodname="SolveCommonCases_2x2" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1028059577" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.025497" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_2x2(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 54]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1021" name="SolveCommonCases_3x3" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_3x3" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.141368" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1018" name="SolveCommonCases_3x3(3,2,4,6,12,1,2,3,6,1,1,3,5)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_3x3(3,2,4,6,12,1,2,3,6,1,1,3,5)" methodname="SolveCommonCases_3x3" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="82536855" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026947" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_3x3(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 70]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1019" name="SolveCommonCases_3x3(3,2,4,6,12,1,2,4,7,1,2,6,9)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_3x3(3,2,4,6,12,1,2,4,7,1,2,6,9)" methodname="SolveCommonCases_3x3" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="253735871" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026829" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_3x3(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 70]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1020" name="SolveCommonCases_3x3(3,1.0d,1.0d,3.0d,5,1.0d,3.0d,1.0d,5,1.0d,2.0d,6.0d,9,2.0d,4.0d,12.0d,18)" fullname="GaussAlgorithm.Solver_Should.SolveCommonCases_3x3(3,1.0d,1.0d,3.0d,5,1.0d,3.0d,1.0d,5,1.0d,2.0d,6.0d,9,2.0d,4.0d,12.0d,18)" methodname="SolveCommonCases_3x3" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1021725179" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026739" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.AssertIsSolvable(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 130
+   в GaussAlgorithm.Solver_Should.SolveCommonCases_3x3(Int32 columnCount, Double[] values) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 70]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1028" name="SolveRandomMatrix" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.281875" total="6" passed="0" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Repeat" value="500" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1022" name="SolveRandomMatrix(2,2)" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix(2,2)" methodname="SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="468519564" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026778" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.SolveRandomMatrix(Int32 rows, Int32 columns) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 83]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1023" name="SolveRandomMatrix(3,3)" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix(3,3)" methodname="SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1974568470" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.023201" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.SolveRandomMatrix(Int32 rows, Int32 columns) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 83]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1024" name="SolveRandomMatrix(4,4)" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix(4,4)" methodname="SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1791278466" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026697" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.SolveRandomMatrix(Int32 rows, Int32 columns) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 83]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1025" name="SolveRandomMatrix(5,5)" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix(5,5)" methodname="SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="772435077" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.027524" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.SolveRandomMatrix(Int32 rows, Int32 columns) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 83]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1026" name="SolveRandomMatrix(10,10)" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix(10,10)" methodname="SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1761280632" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.026922" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.SolveRandomMatrix(Int32 rows, Int32 columns) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 83]]></stack-trace>
+            </failure>
+          </test-case>
+          <test-case id="1027" name="SolveRandomMatrix(3,5)" fullname="GaussAlgorithm.Solver_Should.SolveRandomMatrix(3,5)" methodname="SolveRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="177268156" result="Failed" label="Error" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.024526" asserts="0">
+            <failure>
+              <message><![CDATA[System.NotImplementedException : Метод или операция не реализована.]]></message>
+              <stack-trace><![CDATA[   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.SolveRandomMatrix(Int32 rows, Int32 columns) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 83]]></stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1032" name="ThrowsException_WhenNoSolution" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:25Z" duration="0.391976" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1029" name="ThrowsException_WhenNoSolution(1,1,1,1,-1)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(1,1,1,1,-1)" methodname="ThrowsException_WhenNoSolution" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1424042545" result="Failed" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.231629" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass7_0.<ThrowsException_WhenNoSolution>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(Int32 columnCount, Double[] args) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass7_0.<ThrowsException_WhenNoSolution>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(Int32 columnCount, Double[] args) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1030" name="ThrowsException_WhenNoSolution(2,1,2,42,2,4,42)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(2,1,2,42,2,4,42)" methodname="ThrowsException_WhenNoSolution" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="2112699032" result="Failed" start-time="2021-03-18 06:42:24Z" end-time="2021-03-18 06:42:24Z" duration="0.040854" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass7_0.<ThrowsException_WhenNoSolution>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(Int32 columnCount, Double[] args) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass7_0.<ThrowsException_WhenNoSolution>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(Int32 columnCount, Double[] args) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1031" name="ThrowsException_WhenNoSolution(3,2,4,6,12,1,2,3,6,1,2,3,7,1,1,3,5)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(3,2,4,6,12,1,2,3,6,1,2,3,7,1,1,3,5)" methodname="ThrowsException_WhenNoSolution" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="426013150" result="Failed" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.051816" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass7_0.<ThrowsException_WhenNoSolution>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(Int32 columnCount, Double[] args) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass7_0.<ThrowsException_WhenNoSolution>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolution(Int32 columnCount, Double[] args) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 101
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="1038" name="ThrowsException_WhenNoSolutionOnRandomMatrix" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.331989" total="5" passed="0" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="1033" name="ThrowsException_WhenNoSolutionOnRandomMatrix(10)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(10)" methodname="ThrowsException_WhenNoSolutionOnRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1681653947" result="Failed" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.041038" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1034" name="ThrowsException_WhenNoSolutionOnRandomMatrix(5)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(5)" methodname="ThrowsException_WhenNoSolutionOnRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1274066938" result="Failed" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.041179" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1035" name="ThrowsException_WhenNoSolutionOnRandomMatrix(4)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(4)" methodname="ThrowsException_WhenNoSolutionOnRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1083272881" result="Failed" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.042053" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1036" name="ThrowsException_WhenNoSolutionOnRandomMatrix(3)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(3)" methodname="ThrowsException_WhenNoSolutionOnRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="1579591029" result="Failed" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.041548" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="1037" name="ThrowsException_WhenNoSolutionOnRandomMatrix(2)" fullname="GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(2)" methodname="ThrowsException_WhenNoSolutionOnRandomMatrix" classname="GaussAlgorithm.Solver_Should" runstate="Runnable" seed="34463900" result="Failed" start-time="2021-03-18 06:42:25Z" end-time="2021-03-18 06:42:25Z" duration="0.047202" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+              <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+            </failure>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Expected: <GaussAlgorithm.NoSolutionException>
+  But was:  <System.NotImplementedException: Метод или операция не реализована.
+   в GaussAlgorithm.Solver.Solve(Double[][] matrix, Double[] freeMembers) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver.cs:строка 10
+   в GaussAlgorithm.Solver_Should.<>c__DisplayClass8_0.<ThrowsException_WhenNoSolutionOnRandomMatrix>b__0() в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+   в NUnit.Framework.Assert.Throws(IResolveConstraint expression, TestDelegate code, String message, Object[] args)>
+]]></message>
+                <stack-trace><![CDATA[в GaussAlgorithm.Solver_Should.ThrowsException_WhenNoSolutionOnRandomMatrix(Int32 matrixSize) в C:\Users\Gizon\Downloads\Practices\Gauss\Solver_Should.cs:строка 112
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
