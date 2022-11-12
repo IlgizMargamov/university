@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1c0ed15-159e-4745-bac3-c481105808eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qh7RzFBeHG4EkWpxoaEwEyr2Rl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gizon\IdeaProjects\haffmanCode" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\Gizon\IdeaProjects\haffmanCode\showDoc.js" />
+      <recent name="C:\Users\Gizon\IdeaProjects\haffmanCode\encode.js" />
+      <recent name="C:\Users\Gizon\IdeaProjects\haffmanCode\tree.js" />
+      <recent name="C:\Users\Gizon\IdeaProjects\haffmanCode\counter.js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gizon\IdeaProjects\haffmanCode\hamming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.haffman.js (3)">
+    <configuration name="haffman.js (1)" type="NodeJSConfigurationType" temporary="true" application-parameters="input.txt output.txt" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/haffman.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="haffman.js (2)" type="NodeJSConfigurationType" temporary="true" application-parameters="-e input.txt output.txt" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/haffman.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="haffman.js (3)" type="NodeJSConfigurationType" temporary="true" application-parameters="-d output.txt output1.txt" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/haffman.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="haffman.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/haffman.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="tree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tree.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.haffman.js (3)" />
+        <item itemvalue="Node.js.haffman.js (2)" />
+        <item itemvalue="Node.js.haffman.js (1)" />
+        <item itemvalue="Node.js.haffman.js" />
+        <item itemvalue="Node.js.tree.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1c0ed15-159e-4745-bac3-c481105808eb" name="Default Changelist" comment="" />
+      <created>1617519967218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617519967218</updated>
+      <workItem from="1617519969282" duration="187000" />
+      <workItem from="1617520195102" duration="4740000" />
+      <workItem from="1617643348234" duration="16303000" />
+      <workItem from="1617863702810" duration="10522000" />
+      <workItem from="1617885800692" duration="1303000" />
+      <workItem from="1618200281687" duration="4705000" />
+      <workItem from="1618307693619" duration="11527000" />
+      <workItem from="1618392988548" duration="12568000" />
+      <workItem from="1618518458793" duration="5349000" />
+      <workItem from="1618853053017" duration="256000" />
+      <workItem from="1619000317384" duration="380000" />
+      <workItem from="1619612049855" duration="3092000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts</url>
+          <line>2123</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/haffman.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/haffmanccode$haffman__1_.coverage" NAME="haffman (1) Coverage Results" MODIFIED="1617788656566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/haffmanccode$haffman.coverage" NAME="haffman Coverage Results" MODIFIED="1617521093866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
