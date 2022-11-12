@@ -1,6 +1,0 @@
-digraph CommentParser {
-    START -> slash;
-    slash -> comment;
-    comment -> comment;
-    comment -> START
-}
