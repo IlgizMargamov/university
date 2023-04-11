@@ -1,3 +1,7 @@
+package prim;
+
+import prim.Edge;
+import prim.Pair;
 
 import java.util.Iterator;
 import java.util.List;
@@ -5,9 +9,9 @@ import java.util.Map;
 
 public class Prim {
 
-    private final List<Vertex> graph;
+    private List<VertexImpl> graph;
 
-    public Prim(List<Vertex> graph){
+    public Prim(List<VertexImpl> graph){
         this.graph = graph;
     }
 
@@ -15,12 +19,12 @@ public class Prim {
         if (graph.size() > 0){
             graph.get(0).setVisited(true);
         }
-        while (notVisitedExists()){
+        while (isDisconnected()){
             Edge nextMinimum = new Edge(Integer.MAX_VALUE);
-            Vertex nextVertex = graph.get(0);
-            for (Vertex vertex : graph){
+            VertexImpl nextVertex = graph.get(0);
+            for (VertexImpl vertex : graph){
                 if (vertex.isVisited()){
-                    Pair<Vertex, Edge> candidate = vertex.nextMinimum();
+                    Pair<VertexImpl, Edge> candidate = vertex.nextMinimum();
                     if (candidate.getValue().getWeight() < nextMinimum.getWeight()){
                         nextMinimum = candidate.getValue();
                         nextVertex = candidate.getKey();
@@ -32,8 +36,8 @@ public class Prim {
         }
     }
 
-    private boolean notVisitedExists(){
-        for (Vertex vertex : graph){
+    private boolean isDisconnected(){
+        for (VertexImpl vertex : graph){
             if (!vertex.isVisited()){
                 return true;
             }
@@ -43,15 +47,17 @@ public class Prim {
 
     public String originalGraphToString(){
         StringBuilder sb = new StringBuilder();
-        for (Vertex vertex : graph){
+        for (VertexImpl vertex : graph){
             sb.append(vertex.originalToString());
         }
         return sb.toString();
     }
 
     public void resetPrintHistory(){
-        for (Vertex vertex : graph){
-            for (Map.Entry<Vertex, Edge> pair : vertex.getEdges().entrySet()) {
+        for (VertexImpl vertex : graph){
+            Iterator<Map.Entry<VertexImpl,Edge>> it = vertex.getEdges().entrySet().iterator();
+            while (it.hasNext()) {
+                Map.Entry<VertexImpl,Edge> pair = it.next();
                 pair.getValue().setPrinted(false);
             }
         }
@@ -59,10 +65,21 @@ public class Prim {
 
     public String minimumSpanningTreeToString(){
         StringBuilder sb = new StringBuilder();
-        for (Vertex vertex : graph){
+        for (VertexImpl vertex : graph){
             sb.append(vertex.includedToString());
         }
         return sb.toString();
     }
-
+    public String minimumSpanningTreeToStringInFormat(){
+        var sb = new StringBuilder();
+        var weight = 0;
+        for (VertexImpl vertex : graph){
+            var pair = vertex.includedToStringInFormat();
+            sb.append(pair.getKey());
+            weight+=pair.getValue();
+            // if (vertex)
+        }
+        sb.append(weight);
+        return sb.toString();
+    }
 }

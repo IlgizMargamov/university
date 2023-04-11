@@ -1,3 +1,5 @@
+package combalg;
+
 public class Edge {
 
     private int weight;

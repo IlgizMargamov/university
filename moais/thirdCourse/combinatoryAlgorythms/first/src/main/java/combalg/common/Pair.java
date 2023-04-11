@@ -1,3 +1,5 @@
+package combalg;
+
 public record Pair<T, E>(T key, E value) {
 
     public T getKey() {
