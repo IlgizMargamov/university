@@ -1,6 +1,0 @@
-﻿  4.cpp
-C:\Users\Gizon\Desktop\Study\moais\secondCourse\funcAndLogic\1\1\4.cpp(220,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Gizon\Desktop\Study\moais\secondCourse\funcAndLogic\1\1\4.cpp(295,44): warning C4244: 'initializing': conversion from 'LONGLONG' to 'unsigned int', possible loss of data
-C:\Users\Gizon\Desktop\Study\moais\secondCourse\funcAndLogic\1\1\4.cpp(297,38): warning C4244: 'argument': conversion from 'LONGLONG' to 'DWORD', possible loss of data
-C:\Users\Gizon\Desktop\Study\moais\secondCourse\funcAndLogic\1\1\4.cpp(368): warning C4715: 'main1': not all control paths return a value
-  4.vcxproj -> C:\Users\Gizon\Desktop\Study\moais\secondCourse\funcAndLogic\1\Debug\4.exe

@@ -1,0 +1,1 @@
+Was not made alone. Part I made is frontend communication with server through code and apollo next

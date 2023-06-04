@@ -1,0 +1,37 @@
+{
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.16",
+    "typeorm-pagination": "^2.0.3"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^9.0.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "dotsphoto-node-ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "buildAndRun": "tsc && node dist/index.js",
+    "build:lib": "tsc",
+    "build:asset": "cp -R src/templates/ dist/templates",
+    "build:ormconfig": "copyfiles -f ormconfig.js  dist/",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "version": "1.0.0",
+  "type": "module"
+}
